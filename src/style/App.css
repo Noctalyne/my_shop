@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  background-color: lightgray;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* shop */
+
+.shopCard{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-top: 10%;
+
+}
+
+.card-product{
+  width: 50%;
+  height: 50%;
+}
+
+aside {
+  width: 30%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  border: solid 1px black;
+  border-radius: 2%;
+  /* box-shadow: inset 2px 2 2px -2px #29627e; */
+  font-style: italic;
+  background: white;
+  color: #29627e;
+}
+
+aside > p {
+  margin: 0.5rem;
+}
+
+@keyframes anim-aside {
+  from {
+    position: absolute;
+    left: 80%;
+  }
+  to {position: relative;
+    left: 80%;
+  }
+}

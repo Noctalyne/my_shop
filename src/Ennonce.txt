@@ -1,0 +1,22 @@
+TP shop app: 
+
+Réaliser une application de e commerce. 
+
+Pour se faire, créer un liste de produits avec un nom, une description, une image, un prix HT et un prix après TVA. 
+
+        L'application se composera d'une page qui liste les produits, --> OK
+
+une page de description pour chaque produit,
+
+        une barre de navigation, --> OK
+
+d'une section aside qui comportera un résumé du panier avec le prix total, cette section sera présente sur l'ensemble des pages à part la page produit. 
+
+d'un bouton "panier" dans la navigation qui comptera le nombre de produit dans le panier, et qui au click affichera la section aside. 
+
+Il y aura également sur la page liste de produit, un système de filtrage avancé avec différents paramètres --> OK
+
+Vous pouvez choisir librement vos produits, chaussures, livre, jeux...
+
+
+API produits: https://fakestoreapi.com/products
