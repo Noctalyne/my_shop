@@ -34,13 +34,13 @@ export default function Shop() {
             </select>
 
 
-            <div>
+            <div className='container px-4 px-lg-5  mt-5'>
                 <ul > {/*className='shopCard' la classe ici permet la mise en scene */}
                     {filterProduit.map(article => (
 
                         <section className='py-5'>
 
-                            <div className='container px-4 px-lg-5  mt-5'>{/*  */}
+                            <div >{/*  */}
 
                                 <div className='row gx-4  row-cols-2 gx-lg-5 row-cols-md-3 row-cols-xl-4 justify-content-center '>{/*  */}
 

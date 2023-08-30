@@ -58,15 +58,15 @@
 
 aside {
   width: 30%;
-  padding-left: 0.5rem;
-  margin-left: 0.5rem;
+  /* padding-left: 10px;
+  margin-left:10px; */
   float: right;
   border: solid 1px black;
   border-radius: 2%;
   /* box-shadow: inset 2px 2 2px -2px #29627e; */
   font-style: italic;
   background: white;
-  color: #29627e;
+  color: grey;
 }
 
 aside > p {
